@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Hotel Delfin Playa - Boutique Family Run Hotel in Playa del Carmen</title>
+  <meta name="description" content="Experience the timeless charm of one of Playa del Carmen's oldest hotels, where modern Tulum style meets rich history." />
+  <meta name="keywords" content="Tulum style, boutique hotel, family run, Playa del Carmen, historic hotel" />
+  <!-- Font Awesome for social media icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <style>
+    /* Basic Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Arial', sans-serif;
+      line-height: 1.6;
+      color: #333;
+    }
+    header {
+      background: #f5f5f5;
+      padding: 20px;
+      text-align: center;
+      border-bottom: 1px solid #ddd;
+    }
+    header h1 {
+      font-size: 2rem;
+      color: #2C3E50;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      margin-top: 10px;
+    }
+    nav ul li {
+      margin: 0 15px;
+    }
+    nav ul li a {
+      text-decoration: none;
+      color: #2C3E50;
+      font-weight: bold;
+    }
+    .hero {
+      position: relative;
+      width: 100%;
+      max-height: 500px;
+      overflow: hidden;
+    }
+    .slides {
+      display: flex;
+      width: 300%;
+      animation: slideAnimation 15s infinite;
+    }
+    .slide {
+      width: 100%;
+      flex-shrink: 0;
+    }
+    .slide img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+    /* Simple slider animation */
+    @keyframes slideAnimation {
+      0% { transform: translateX(0%); }
+      33% { transform: translateX(0%); }
+      38% { transform: translateX(-100%); }
+      70% { transform: translateX(-100%); }
+      75% { transform: translateX(-200%); }
+      100% { transform: translateX(-200%); }
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+    .section-title {
+      text-align: center;
+      margin-bottom: 20px;
+      font-size: 2rem;
+      color: #2C3E50;
+    }
+    .content-flex {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+    }
+    .content-flex > div {
+      flex: 1 1 500px;
+      margin: 10px;
+    }
+    .content-flex img {
+      width: 100%;
+      border-radius: 10px;
+    }
+    .btn {
+      display: inline-block;
+      padding: 10px 20px;
+      background: #2C3E50;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background 0.3s;
+    }
+    .btn:hover {
+      background: #1A242F;
+    }
+    .social-media {
+      text-align: center;
+      padding: 20px 0;
+      background: #f5f5f5;
+    }
+    .social-media a {
+      margin: 0 10px;
+      color: #2C3E50;
+      font-size: 1.5rem;
+      transition: color 0.3s;
+    }
+    .social-media a:hover {
+      color: #E67E22;
+    }
+    footer {
+      background: #2C3E50;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+    }
+    /* Responsive adjustments */
+    @media (max-width: 768px) {
+      nav ul {
+        flex-direction: column;
+      }
+      .content-flex {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Header with Navigation -->
+  <header>
+    <h1>Hotel Delfin Playa</h1>
+    <nav>
+      <ul>
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">Our Story</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#booking">Booking</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section with Image Slider -->
+  <section class="hero" id="hero">
+    <div class="slides">
+      <div class="slide">
+        <img src="https://source.unsplash.com/1200x500/?modern,hotel" alt="Modern view of the hotel">
+      </div>
+      <div class="slide">
+        <img src="https://source.unsplash.com/1200x500/?historic,hotel" alt="Historical view of the hotel">
+      </div>
+      <div class="slide">
+        <img src="https://source.unsplash.com/1200x500/?tulum" alt="Tulum style ambiance">
+      </div>
+    </div>
+  </section>
+
+  <!-- Our Story Section -->
+  <section id="about">
+    <h2 class="section-title">Our Story</h2>
+    <div class="content-flex">
+      <div>
+        <p>Welcome to Hotel Delfin Playa, one of Playa del Carmen's oldest hotels. Here, timeless heritage meets modern Tulum style. Our family-run boutique hotel blends our rich history with contemporary comforts, ensuring a unique and memorable experience.</p>
+        <p>Our journey is captured through a collection of vintage photographs alongside chic, modern designs inspired by the natural beauty of the region. Enjoy a stay steeped in tradition with the amenities of today.</p>
+      </div>
+      <div>
+        <img src="https://source.unsplash.com/600x400/?historic,building" alt="Historical photo of the hotel">
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery Section -->
+  <section id="gallery">
+    <h2 class="section-title">Gallery</h2>
+    <div class="content-flex">
+      <div>
+        <img src="https://source.unsplash.com/400x300/?hotel,lobby" alt="Modern view of the hotel lobby">
+      </div>
+      <div>
+        <img src="https://source.unsplash.com/400x300/?beach,resort" alt="Beachside view of the resort">
+      </div>
+      <div>
+        <img src="https://source.unsplash.com/400x300/?family,hotel" alt="Family hospitality at the hotel">
+      </div>
+    </div>
+  </section>
+
+  <!-- Booking Section -->
+  <section id="booking">
+    <h2 class="section-title">Booking</h2>
+    <div class="content-flex">
+      <div>
+        <p>Ready to experience the perfect blend of history and modern comfort? Book your stay now and be a part of our family legacy in Playa del Carmen.</p>
+        <a href="https://example.com/reservations" class="btn" target="_blank">Book Now</a>
+      </div>
+      <div>
+        <img src="https://source.unsplash.com/600x400/?beach,hotel" alt="Book your stay">
+      </div>
+    </div>
+  </section>
+
+  <!-- Social Media Integration -->
+  <div class="social-media">
+    <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+    <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+    <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+    <a href="https://www.tripadvisor.com/" target="_blank"><i class="fab fa-tripadvisor"></i></a>
+  </div>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2 class="section-title">Contact Us</h2>
+    <div style="text-align: center;">
+      <p>Email: <a href="mailto:info@hoteldelfinplaya.com">info@hoteldelfinplaya.com</a></p>
+      <p>Phone: +52 123 456 7890</p>
+      <p>Address: Playa del Carmen, Quintana Roo, Mexico</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Hotel Delfin Playa. All rights reserved.</p>
+  </footer>
+</body>
+</html>
